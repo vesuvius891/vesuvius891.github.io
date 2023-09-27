@@ -26,21 +26,14 @@ body {
 #main {
   width: 1200px;
   margin: 0px auto;
-  height: 1400px;
 }
 
 #header {
-  width: 980px;
+  width: 81%;
   margin: 0px auto;
 }
 
-.logo {
-  clear: both;
-  padding-left: 20px;
-}
-
 .menu {
-  float: left;
   margin-top: 75px;
   width: auto;
 }
@@ -70,17 +63,11 @@ body {
 	background-color: #F5f5dc;
 	box-shadow: 2px 0px #e4e4a2;
 	padding: 5px 22px 9px;
-	margin-right: 10px;;
+	margin-right: 10px;
 }
 
 .menu a:hover {
 	background-color: #9f2f00;
-}
-
-#contentTop {
-  height: 10px;
-  width: 988px;
-  margin: 0px auto;
 }
 
 #contentBottom {
@@ -97,6 +84,7 @@ body {
   padding: 10px 15px;
   width: 978px;
   margin: 0px auto;
+  margin-top: 10px;
 }
 
 .welcomeHolder {
@@ -160,31 +148,32 @@ h1 {
   padding: 5px 30px;
 }
 
-.organic {
-  clear: both;
-  width: 980px;
-  margin: 15px auto 0px 10px;
+.offerings {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-around;
+  width: 100%;
 }
 
-.organicHolder {
-  float: left;
-  width: 300px;
-  padding-bottom: 5px;
-  margin: 0px 10px;
+.offering {
+  width: 50%;
+  padding: 15px;
 }
 
-.organicContent {
-  padding: 0px 0px 10px;
-  height: 275px;
+.offeringContent img {
+  height: 300px;
 }
 
-.organicContent h2 {
+.offeringContent h2 {
   margin: 10px 15px;
   font-size: 15px;
   color: #674512;
 }
 
-.organicContent p {
+.offeringContent p {
   margin: 0px 12px;
   color: #29371d;
   text-align: justify;
@@ -207,14 +196,13 @@ h3 {
 .hr {
   border: none 0;
   background: url(../images/hr.jpg) repeat-x left;
-  height: 2px; /*whatever the total width of the border-top and border-bottom equal*/
+  height: 2px; 
   margin: 20px 17px;
 }
 
 #footer {
   width: 980px;
   margin: 10px auto;
-  /*	background:url(../images/contentBg.png) repeat-y top center;*/
 }
 
 .contactHeading {
