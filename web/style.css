@@ -1,11 +1,11 @@
 header.w3-container {
-  background-image: url("/images/volcano.jpg");
+  background-image: url("./images/volcano.jpg");
   background-blend-mode: color-burn;
   background-size: cover;
 }
 
 header div.vesuvius-logo {
-  background-image: url("/images/vesuvius-logo.jpg");
+  background-image: url("./images/vesuvius-logo.jpg");
   background-size: contain;
   height: 98px;
   width: 100px;
@@ -23,14 +23,14 @@ header div.vesuvius-logo {
 }
 
 .events-planning-content {
-  background-image: url("/images/events-planning.jpg");
+  background-image: url("./images/events-planning.jpg");
   background-size: cover;
   max-width: 820px;
   margin: 0 auto;
 }
 
 .print-on-demand-content {
-  background-image: url("/images/print-on-demand.landscape.jpg");
+  background-image: url("./images/print-on-demand.landscape.jpg");
   background-size: cover;
   min-height: 450px;
   max-width: 820px;
