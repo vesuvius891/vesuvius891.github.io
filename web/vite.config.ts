@@ -5,6 +5,6 @@ export default defineConfig({
     plugins: [],
     root: './',
     build: {
-        outDir: '../dist'
+        outDir: '../docs'
     }
 })
