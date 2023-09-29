@@ -11,8 +11,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        eventsPlanning: resolve(__dirname, 'events-planning.html'),
-        printOnDemand: resolve(__dirname, 'print-on-demand.html'),
+        eventsPlanning: resolve(__dirname, 'events-planning/index.html'),
+        printOnDemand: resolve(__dirname, 'print-on-demand/index.html'),
       },
     },
   },
