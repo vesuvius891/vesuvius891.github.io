@@ -1,6 +1,6 @@
 header.w3-container {
   background-image: url("./images/volcano.jpg");
-  background-blend-mode: color-burn;
+  background-blend-mode: color-dodge;
   background-size: cover;
 }
 
@@ -30,7 +30,7 @@ header div.vesuvius-logo {
 }
 
 .print-on-demand-content {
-  background-image: url("./images/print-on-demand.landscape.jpg");
+  background-image: url("./images/print-on-demand.portrait.jpg");
   background-size: cover;
   min-height: 450px;
   max-width: 820px;
