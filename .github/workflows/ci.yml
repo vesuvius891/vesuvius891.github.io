@@ -34,4 +34,4 @@ jobs:
         author_email: vgounden@gmail.com
         message: Auto update
         new_branch: gh-pages
-        push: origin gh-page --set-upstream --force
+        push: origin gh-pages --set-upstream --force
