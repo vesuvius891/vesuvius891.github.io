@@ -33,3 +33,4 @@ jobs:
         author_name: vg2-auto
         author_email: vgounden@gmail.com
         message: Auto update
+        new_branch: gh-pages
