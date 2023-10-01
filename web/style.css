@@ -59,3 +59,30 @@ header.w3-red {
 .content-wrapper {
   width: 70%;
 }
+
+section.catalog {
+  max-width: 1024px;
+  text-align: center;
+}
+
+section.catalog img {
+  width: 200px;
+  height: 200px;
+  margin: 8px;
+  /* border-width: 5px;
+  border-color: orange;
+  border-style: solid;
+  border-radius: 2px; */
+  box-shadow: 2px 2px 2px 2px orange;
+}
+
+@media only screen and (max-width: 600px) {
+  section.catalog img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.catalog-heading {
+  padding: 15px;
+}
