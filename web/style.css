@@ -60,9 +60,16 @@ header.w3-red {
   width: 70%;
 }
 
+.print-on-demand-page-content {
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgb(250, 250, 250);
+}
+
 section.catalog {
   max-width: 1024px;
   text-align: center;
+  margin: 0 auto;
 }
 
 section.catalog img {
@@ -80,6 +87,10 @@ section.catalog img {
   section.catalog img {
     width: 150px;
     height: 150px;
+  }
+
+  .print-on-demand-page-content {
+    width: 100%;
   }
 }
 
